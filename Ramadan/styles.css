@@ -62,8 +62,11 @@ header {
 .role-title {
     font-size: 1.4em;
     color: var(--secondary-color);
-    margin-bottom: 20px;
+    margin-bottom: 0;
     font-weight: 700;
+}
+.role-title + p{
+    margin-bottom: 15px;
 }
 
 .summary-text {
@@ -241,4 +244,47 @@ footer {
         display: block;
         margin: 10px 0;
     }
+}
+/* =========================
+   SERVICES SECTION
+========================= */
+
+.section-services {
+    margin-top: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.service-card {
+    background: #111;
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #222;
+}
+
+.service-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    color: #00d9ff;
+}
+
+.service-card p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* Hover Effect */
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #00d9ff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
