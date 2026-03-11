@@ -1,124 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHMED R. - SOC Analyst Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AHMED R. - SOC Analyst Portfolio</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
-        <div class="container header-content">
-            <div class="intro">
-                <img src="img1 (1).png" alt="Ahmed Ramadan Profile Picture" class="profile-pic" style="border-radius: 50%;"> 
-                <h1>AHMED RAMADAN SALEM</h1>
-                <p class="role-title">🛡️ Junior SOC Analyst | CyberSecurity Enthusiast</p>
-                <p>
-            Precision in Detection. Control in Response.
-          </p>
-                <p class="summary-text">
-Junior SOC Analyst with hands-on experience in security monitoring, incident response, and log analysis using SIEM platforms such as IBM QRadar. Trained in network security, firewall administration, and digital forensics through academic labs and real-world simulations. Strong foundation in threat detection, incident handling, and SOC operations, seeking an entry-level SOC Analyst role to contribute to security operations and continuous improvement.                </p>
-                <div class="contact-links">
-                    <a href="mailto:ahmedramadanmain@gmail.com">Email Me</a>
-                    <a href="https://linkedin.com/in/ahmed-ramadan-soc" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/ahmedramadanmain" target="_blank">GitHub</a>
+<header>
+<div class="container header-content">
 
-                    <a href="AHMED RAMADAN CV.pdf" download="AHMED RAMADAN CV.pdf" target="_blank">CV</a>
+<div class="intro">
+
+<img src="img1 (1).png" alt="Ahmed Ramadan Profile Picture" class="profile-pic" style="border-radius:50%;">
+
+<h1>AHMED RAMADAN SALEM</h1>
+
+<p class="role-title">
+🛡️ Junior SOC Analyst | CyberSecurity Enthusiast
+</p>
+
+<p>
+Precision in Detection. Control in Response.
+</p>
+
+<p class="summary-text">
+Junior SOC Analyst with hands-on experience in security monitoring, incident response, and log analysis using SIEM platforms such as IBM QRadar. Trained in network security, firewall administration, and digital forensics through academic labs and real-world simulations. Strong foundation in threat detection, incident handling, and SOC operations, seeking an entry-level SOC Analyst role to contribute to security operations and continuous improvement.
+</p>
+
+<div class="contact-links">
+
+<a href="mailto:ahmedramadanmain@gmail.com">Email</a>
+
+<a href="https://linkedin.com/in/ahmed-ramadan-soc" target="_blank">LinkedIn</a>
+
+<a href="https://github.com/ahmedramadanmain" target="_blank">GitHub</a>
+
+<a href="AHMED RAMADAN CV.pdf" download>Download CV</a>
+
+</div>
+
+</div>
+</div>
+</header>
 
 
-                </div>
-            </div>
-        </div>
-    </header>
+<main class="container">
 
-    <main class="container">
 
-        <section id="skills" class="section-skills">
-            <h2>🛠️ Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-group">
-                    <h3>Security Operations (Blue Team)</h3>
-                    <ul>
-                        <li>**SIEM:** IBM QRadar, Splunk (Log Analysis, Custom Rules)</li>
-                        <li>**Detection & Response:** Threat Detection, Incident Response (ECIR)</li>
-                        <li>**Network Security:** IDS/IPS (Snort, Suricata), Vulnerability Management</li>
-                    </ul>
-                </div>
-                <div class="skill-group">
-                    <h3>Forensics & Systems</h3>
-                    <ul>
-                        <li>**Analysis:** Wireshark, Digital Forensics Tools (ECDFP)</li>
-                        <li>**Scripting:** Python, Bash (Task Automation)</li>
-                        <li>**System Admin:** Windows Server (MCSA), Linux, Active Directory</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <hr>
+<!-- Skills Section -->
 
-        <section id="projects" class="section-projects">
-            <h2>📂 Practical Projects & Case Studies</h2>
-            <div class="projects-list">
-                
-                <div class="project-card">
-                    <h3>1. IDS Deployment & QRadar Integration</h3>
-                    <p class="project-tools">**Tools Used:** Snort, Suricata, IBM QRadar, Wireshark</p>
-                    <p>Documented the full workflow of deploying **Snort and Suricata** for real-time attack detection. Demonstrated the integration process to forward alerts to **QRadar SIEM** and showed how custom correlation rules were developed and fine-tuned to eliminate false positives after simulating attacks (e.g., brute force).</p>
-                    <!-- <a href="[Link to GitHub Project 1 Readme]" target="_blank" class="btn-primary">View Full Case Study & Code on GitHub</a> -->
-                </div>
+<section id="skills" class="section-skills">
 
-                <div class="project-card">
-                    <h3>2. SOC Automation Scripting (Python/Bash)</h3>
-                    <p class="project-tools">**Tools Used:** Python, Bash, Public Threat Feeds</p>
-                    <p>Developed a **Python script** to automate IP reputation checks from log files against a public threat intelligence feed. Showcased a **Bash script** for automated system log archival and auditing on a Linux server. *Impact: Reduced manual data enrichment time by 80%.*</p>
-                    <!-- <a href="[Link to GitHub Project 2 Readme]" target="_blank" class="btn-primary">View Python Scripts</a> -->
-                </div>
-                
-                <div class="project-card">
-                    <h3>3. Malware Incident Response Workflow</h3>
-                    <p class="project-tools">**Tools Used:** ECIR Methodology, Digital Forensics Tools, Splunk</p>
-                    <p>Walkthrough of a full incident response process for a simulated malware outbreak. Demonstrated triage, containment, evidence collection (forensics), and root cause analysis. Developed a **standardized IR Playbook** based on ECIR principles for Tier 1 analysts.</p>
-                    <!-- <a href="[Link to GitHub Project 3 Report PDF]" target="_blank" class="btn-primary">Download IR Report Example</a> -->
-                </div>
+<h2>🛠️ Technical Skills</h2>
 
-            </div>
-        </section>
-        
-        <hr>
+<div class="skills-grid">
 
-        <section id="certifications" class="section-certs">
-            <h2>🏆 Certifications & Education</h2>
-            <div class="certs-grid">
-                <div class="cert-item">
-                    <span class="cert-name"> Cybersecurity (SOC Analyst) Engineering Diploma   
-IT Gate Academy – In collaboration with Ain Shams University </span>
-                </div>
-                <div class="cert-item">
-                    <span class="cert-name">Cyber Security Incident Response Analyst   
-Digital Egypt Pioneers Initiative (DEPI) – MCIT (Ongoing)</span>
-                </div>
-                <div class="cert-item">
-                    <span class="cert-name">Cisco CCNA v7 – Coursework (Semester 1, 2, 3) </span>
-                </div>
-                <div class="cert-item">
-                    <span class="cert-name">Cybersecurity & Networking Courses – MaharaTech (Online)</span>
-                </div>
-                
-            </div>
-            <p class="education-text">
-                **Education:** Bachelor's Degree in Computer Engineering and Telecommunication
-            </p>
-        </section>
+<div class="skill-group">
 
-    </main>
+<h3>Security Operations (Blue Team)</h3>
 
-    <footer>
-        <p>&copy; 2025 Ahmed Ramadan Salem. Built for Cybersecurity.</p>
-    </footer>
+<ul>
+
+<li>SIEM: IBM QRadar, Splunk</li>
+
+<li>Threat Detection & Incident Response</li>
+
+<li>IDS/IPS: Snort, Suricata</li>
+
+<li>Network Security Monitoring</li>
+
+</ul>
+
+</div>
+
+<div class="skill-group">
+
+<h3>Systems & Forensics</h3>
+
+<ul>
+
+<li>Wireshark & Network Analysis</li>
+
+<li>Digital Forensics</li>
+
+<li>Python & Bash Automation</li>
+
+<li>Windows Server & Active Directory</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<hr>
+
+
+<!-- SERVICES SECTION -->
+
+<section id="services" class="section-services">
+
+<h2>💼 Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<h3>SOC Monitoring</h3>
+
+<p>
+Monitor security alerts, analyze logs, and detect suspicious activities using SIEM tools such as QRadar and Splunk.
+</p>
+
+</div>
+
+
+<div class="service-card">
+
+<h3>Incident Response</h3>
+
+<p>
+Investigate security incidents, perform triage, containment, and provide detailed incident analysis reports.
+</p>
+
+</div>
+
+
+<div class="service-card">
+
+<h3>Security Log Analysis</h3>
+
+<p>
+Analyze firewall, server, and network logs to identify threats, anomalies, and possible security breaches.
+</p>
+
+</div>
+
+
+<div class="service-card">
+
+<h3>Automation Scripts</h3>
+
+<p>
+Develop Python or Bash scripts to automate repetitive security tasks such as log parsing and threat intelligence checks.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<hr>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section-projects">
+
+<h2>📂 Practical Projects</h2>
+
+<div class="projects-list">
+
+<div class="project-card">
+
+<h3>IDS Deployment & QRadar Integration</h3>
+
+<p class="project-tools">
+Tools: Snort, Suricata, QRadar, Wireshark
+</p>
+
+<p>
+Deployed Snort and Suricata IDS systems and integrated alerts into QRadar SIEM. Created custom correlation rules and simulated attacks such as brute force to validate detection capabilities.
+</p>
+
+</div>
+
+
+<div class="project-card">
+
+<h3>SOC Automation Scripts</h3>
+
+<p class="project-tools">
+Tools: Python, Bash
+</p>
+
+<p>
+Developed automation scripts to analyze logs and check IP reputation against threat intelligence feeds.
+</p>
+
+</div>
+
+
+<div class="project-card">
+
+<h3>Incident Response Case Study</h3>
+
+<p class="project-tools">
+Tools: Splunk, Digital Forensics Tools
+</p>
+
+<p>
+Performed a full incident response workflow including detection, analysis, containment, and root cause investigation.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<hr>
+
+
+<!-- CERTIFICATIONS -->
+
+<section id="certifications" class="section-certs">
+
+<h2>🏆 Certifications & Education</h2>
+
+<div class="certs-grid">
+
+<div class="cert-item">
+Cybersecurity (SOC Analyst) Engineering Diploma – IT Gate Academy
+</div>
+
+<div class="cert-item">
+Cyber Security Incident Response Analyst – DEPI (MCIT)
+</div>
+
+<div class="cert-item">
+Cisco CCNA v7 Coursework
+</div>
+
+<div class="cert-item">
+MaharaTech Cybersecurity Courses
+</div>
+
+</div>
+
+<p class="education-text">
+
+Education: Bachelor's Degree in Computer Engineering and Telecommunications
+
+</p>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+<p>© 2025 Ahmed Ramadan Salem</p>
+
+</footer>
+
 </body>
-
 </html>
+
 
